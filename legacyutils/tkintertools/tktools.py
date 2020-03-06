@@ -5,8 +5,8 @@ instead of having them enter options from a command line
 '''
 from tkinter import *
 from tkinter.filedialog import askopenfilename, asksaveasfilename
-from botutils.tkintertools import tk_config_options as c_options
-from botutils.tabletools import tabletools as tt
+from legacyutils.tkintertools import tk_config_options as c_options
+from legacyutils.tabletools import tabletools as tt
 
 #Need to add eventually
 #class SingleInput(Frame):
