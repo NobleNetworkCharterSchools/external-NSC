@@ -18,6 +18,11 @@ python -m venv .env
 source .env/Scripts/activate
 pip install -r requirements.txt
 ```
+## If you need to refresh from the repository, type:
+
+```python
+git pull https://github.com/NobleNetworkCharterSchools/external-NSC.git
+```
 
 ## Steps for processing:
 
