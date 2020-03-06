@@ -11,6 +11,13 @@ SF_LIVE_USERNAME = 'your_username'
 SF_LIVE_PASSWORD = 'your_password'
 SF_LIVE_TOKEN = 'your_token'
 ```
+## before processing, create a virtual environment and install libraries:
+
+```python
+python -m venv .env
+source .env/Scripts/activate
+pip install -r requirements.txt
+```
 
 ## Steps for processing:
 
