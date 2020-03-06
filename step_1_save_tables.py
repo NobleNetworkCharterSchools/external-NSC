@@ -6,10 +6,14 @@ Saves the contacts, enrollments, and accounts tables locally to
 stash_dir
 """
 import sys
+import os
 
 from modules import sf_interface
 
 def main(cred_file):
+    if not os.path.exists('stash_dir'):
+        os.mkdir('stash_dir')
+        
     sf = sf_interface.get_sf(cred_file[:-3])
     for fn, obj in (
                     ('contacts.csv', sf.Contact),
